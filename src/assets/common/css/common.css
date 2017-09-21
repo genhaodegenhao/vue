@@ -1,0 +1,55 @@
+.rating-content{
+  margin: 0 18px;
+}
+.rating-item{
+  position: relative;
+  padding: 16px;
+  font-size: 0;
+}
+.rating-item:after{
+  content: ' ';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  border-top: 1px solid rgba(7, 17, 27, 0.1);
+}
+.rating-time,.user .username{
+  display: inline-block;
+  font-size: 10px;
+  line-height: 12px;
+  color: rgb(147, 153, 159);
+  vertical-align: top;
+}
+.user{
+  position: absolute;
+  top: 16px;
+  right: 0;
+}
+.user .username{
+  margin-right: 6px;
+}
+.user .avatar{
+  border-radius: 50%;
+}
+.rating-text{
+  color: rgb(7, 17, 27);
+  line-height: 16px;
+  margin-top: 6px;
+}
+.rating-text i,.rating-text span{
+  font-size: 12px;
+  line-height: 24px;
+}
+.rating-text i{
+  display: inline-block;
+  margin-right: 4px;
+  vertical-align: top;
+}
+.rating-text .icon-thumb_up{
+  color: rgb(0, 160, 220);
+}
+.rating-text .icon-thumb_down{
+  color: rgb(147, 153, 159);
+}
